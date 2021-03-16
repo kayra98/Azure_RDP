@@ -20,6 +20,5 @@ echo Hepsi tamam! VDS'nizi Uzak Masaüstü Bağlantısı kullanarak bağlayın
 echo IP: Altta ↓
 tasklist | find /i "ngrok.exe" >Nul && curl -s localhost:4040/api/tunnels | jq -r .tunnels[0].public_url || echo "NGROK tüneli alınamıyor, lütfen yeni NGROK TOKEN'i YML'ye yapıştırın. Tüneli buradan kontrol edin: https://dashboard.ngrok.com/status/tunnels" && exit
 echo Kullanıcı Adı: administrator
-echo Şifre: expertBaba!31
-echo Daha Fazlası İçin: https://www.youtube.com/channel/UCJUVDG8yVSNptf6SQVdbEIQ
+echo Şifre: kayra123!
 ping -n 999999 10.10.0.10 >nul
