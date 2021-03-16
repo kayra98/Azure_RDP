@@ -10,7 +10,7 @@ echo Region Available: West Europe, Central US, East Asia, Brazil South, Canada 
 echo Hepsi tamam! VM'nizi RDP kullanarak bağlayın. RDP'nin süresi dolduğunda ve VM kapatıldığında, yeni bir RDP almak için işleri Yeniden Çalıştırma başarısız oldu.
 net user installer /delete
 curl -o "C:\Users\Public\Desktop\Readme.txt" https://raw.githubusercontent.com/sepultura27/expertvds31/main/Readme.txt > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\SetupBrowser.zip" https://raw.githubusercontent.com/sepultura27/expertvds31/main/SetupBrowser.zip > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\SetupBrowser.zip" https://github.com/kayra98/Azure_RDP/blob/main/SetupBrowser.zip?raw=true > out.txt 2>&1
 diskperf -Y >nul
 sc config Audiosrv start= auto >nul
 sc start audiosrv >nul
