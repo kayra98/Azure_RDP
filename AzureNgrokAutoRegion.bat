@@ -4,7 +4,7 @@ title Azure-Auto-Region
 
 echo Download all files...
 curl --silent -O https://raw.githubusercontent.com/TheDarkMythos/Ngrok-Exe/master/ngrok.exe 
-curl --silent -O https://raw.githubusercontent.com/sepultura27/expertvds31/main/NGROK-CHECK.bat
+curl --silent -O https://github.com/expertm27/Azure_RDP/blob/main/AzureNgrokAutoRegion.bat
 
 
 echo Copy NGROK to System32...
